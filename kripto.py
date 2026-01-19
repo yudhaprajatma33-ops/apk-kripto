@@ -165,10 +165,10 @@ else:  # Dekripsi
     col_input1, col_input2 = st.columns(2)
     
     with col_input1:
-        ciphertext = st.text_input("Masukkan Ciphertext:", "nm blc fnc kc giz", help="Masukkan kode ciphertext yang dipisahkan spasi")
+        ciphertext = st.text_input("Masukkan Ciphertext:", "", help="Masukkan kode ciphertext yang dipisahkan spasi")
     
     with col_input2:
-        key = st.text_input("Masukkan Key:", "23547", help="Masukkan key (angka, maksimal 5 digit)")
+        key = st.text_input("Masukkan Key:", "", help="Masukkan key (angka, maksimal 5 digit)")
     
     if st.button("🔓 Dekripsi", type="primary"):
         if ciphertext and key:
