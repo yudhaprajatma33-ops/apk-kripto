@@ -4,7 +4,7 @@ import pandas as pd
 st.set_page_config(page_title="Modifikasi Kriptografi", page_icon="🔒", layout="wide")
 
 # Judul aplikasi
-st.title("🔒 MODIFIKASI KRIPTOGRAFI BERBASIS POLA WARNA IKAN CUPANG")
+st.title("🔒 BETTASCALE ENCRIPTION ALGORITHM ")
 st.write("Oleh: GILANG YUDHA PRAJATMA - 24.83.1060")
 
 st.markdown("---")
