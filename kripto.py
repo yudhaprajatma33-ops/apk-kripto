@@ -140,10 +140,10 @@ if mode == "Enkripsi":
     col_input1, col_input2 = st.columns(2)
     
     with col_input1:
-        plaintext = st.text_input("Masukkan Plaintext:", "masukkan plaintext", help="Masukkan teks yang akan dienkripsi (huruf A-Z)")
+        plaintext = st.text_input("Masukkan Plaintext:", "", help="Masukkan teks yang akan dienkripsi (huruf A-Z)")
     
     with col_input2:
-        key = st.text_input("Masukkan Key:", "masukkan key", help="Masukkan key (angka, maksimal 5 digit)")
+        key = st.text_input("Masukkan Key:", "", help="Masukkan key (angka, maksimal 5 digit)")
     
     if st.button("🚀 Enkripsi", type="primary"):
         if plaintext and key:
